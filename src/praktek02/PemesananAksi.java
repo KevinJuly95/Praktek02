@@ -12,5 +12,8 @@ package praktek02;
 public class PemesananAksi {
     public static void main(String[] args) {
         Pemesananhotel r1 = new Pemesananhotel ();
+        r1.hargakamar = 100000;
+        r1.lamamenginap = 2;
+        
     }
 }
