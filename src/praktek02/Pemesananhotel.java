@@ -10,5 +10,13 @@ package praktek02;
  * @author ACER
  */
 public class Pemesananhotel {
+    int hargakamar;
+    int lamamenginap;
     
+    void cetakInfo(){
+        System.out.println("=========================");
+        System.out.println("hargakamar : "+hargakamar);
+        System.out.println("lamamenginap: "+lamamenginap);
+        System.out.println("=========================");
+    }
 }
