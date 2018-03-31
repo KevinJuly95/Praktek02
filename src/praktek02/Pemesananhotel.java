@@ -12,6 +12,11 @@ package praktek02;
 public class Pemesananhotel {
     int hargakamar;
     int lamamenginap;
+
+    public Pemesananhotel() {
+        hargakamar= 200000;
+        lamamenginap=4;
+    }
     
     void cetakInfo(){
         System.out.println("=========================");
