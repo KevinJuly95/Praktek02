@@ -17,6 +17,11 @@ public class Pemesananhotel {
         hargakamar= 200000;
         lamamenginap=4;
     }
+
+    public Pemesananhotel(int hargakamar, int lamamenginap) {
+        this.hargakamar = hargakamar;
+        this.lamamenginap = lamamenginap;
+    }
     
     void cetakInfo(){
         System.out.println("=========================");

@@ -18,5 +18,11 @@ public class PemesananAksi {
         r1.cetakInfo();
         System.out.println("Total PemesananHotel = "+r1.hitungTotal());
         r1.cetakTotal();
+        
+        Pemesananhotel r2 = new Pemesananhotel ();
+        r2.cetakInfo();
+        
+        Pemesananhotel r3 = new Pemesananhotel (600000,6);
+        r3.cetakInfo();
     }
 }
