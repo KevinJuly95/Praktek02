@@ -25,4 +25,8 @@ public class Pemesananhotel {
         total=hargakamar*lamamenginap;
         return total;
     }
+    
+    void cetakTotal(){
+        System.out.println("Totalnya adalah: "+hitungTotal());
+    }
 }
