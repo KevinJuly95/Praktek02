@@ -16,5 +16,6 @@ public class PemesananAksi {
         r1.lamamenginap = 2;
         
         r1.cetakInfo();
+        System.out.println(" Total PemesananHotel = "+r1.hitungTotal());
     }
 }

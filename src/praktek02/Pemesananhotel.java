@@ -19,4 +19,10 @@ public class Pemesananhotel {
         System.out.println("lamamenginap: "+lamamenginap);
         System.out.println("=========================");
     }
+    
+    int hitungTotal(){
+        int total;
+        total=hargakamar*lamamenginap;
+        return total;
+    }
 }
