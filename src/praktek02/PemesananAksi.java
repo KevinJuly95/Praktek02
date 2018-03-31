@@ -15,5 +15,6 @@ public class PemesananAksi {
         r1.hargakamar = 100000;
         r1.lamamenginap = 2;
         
+        r1.cetakInfo();
     }
 }
